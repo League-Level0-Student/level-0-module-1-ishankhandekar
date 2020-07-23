@@ -12,7 +12,7 @@ public class TheRiddler {
 
 	public static void main(String[] args) {
 
-		// 1. Make a variable to hold the score
+		// 1. Make a variable to hold the score 
 		int score = 0;
 		int questionNumber;
 		ArrayList<Integer> random = new ArrayList<Integer>();
@@ -40,7 +40,7 @@ public class TheRiddler {
 			}
 
 			String userAnswer = JOptionPane.showInputDialog(questions[questionNumber]);
-			if( answers[ questionNumber].indexOf(userAnswer ) > 0) {
+			if( answers [questionNumber].indexOf(userAnswer ) > 0) {
 				JOptionPane.showMessageDialog(null, "You got it correct!");
 				score = score + 1;
 			} else {
